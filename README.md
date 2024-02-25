@@ -18,7 +18,7 @@ To get started with VidTour on your local machine, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Install the required Python dependencies listed in requirements.txt using "pip install -r requirements.txt".
+2. Install the required Python dependencies listed in requirements.txt using `pip install -r requirements.txt`.
 
 3. Set up your Google API key by creating a .env file in the root directory and adding your key:
 
