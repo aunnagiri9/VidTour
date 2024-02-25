@@ -1,28 +1,29 @@
-VidTour
-Deep Dive into YT Video to get Summary/Insights
+# VidTour
 
-What is the app used for?
-The app provides video analysis for users based on the link provided. 
-This makes it easier for users to summarise and get key points for both long and short videos and get insights.
+**Deep Dive into YT Video to get Summary/Insights**
 
-Features
-1.Extracts transcripts from YouTube videos.
+## What is the app used for?
+VidTour is an innovative application designed to provide video analysis for users based on the YouTube video link they provide. It's engineered to simplify the process of summarizing and extracting key points from both long and short videos, offering valuable insights at a glance.
 
-2.Summarizes transcripts into concise summaries using Google's Gemini Pro GenerativeAI.
+## Features
+VidTour comes with a host of powerful features designed to enhance your video viewing experience:
 
-3.Provides detailed notes with key insights and essential information.
+1. **Extracts transcripts from YouTube videos:** Directly pulls the spoken content from videos for analysis.
+2. **Summarizes transcripts:** Utilizes Google's Gemini Pro GenerativeAI to condense transcripts into concise summaries, making it easier to digest the content.
+3. **Provides detailed notes:** Delivers key insights and essential information from the video content, enabling users to grasp the core message quickly.
+4. **User-friendly interface:** Designed for ease of use, allowing users to input YouTube video links effortlessly.
 
-4.User-friendly interface with easy input of YouTube video links.
+## Set Up
+To get started with VidTour on your local machine, follow these steps:
 
-Set Up
-To run the application locally, follow these steps:
+1. Clone this repository to your local machine.
 
-Clone this repository to your local machine.
+2. Install the required Python dependencies listed in requirements.txt using pip install -r requirements.txt.
 
-Install the required Python dependencies listed in requirements.txt using pip install -r requirements.txt.
+3. Set up your Google API key by creating a .env file in the root directory and adding your key:
 
-Set up your Google API key by creating a .env file in the root directory and adding your key:
+4. Run the Streamlit app by executing the command streamlit run app.py in your terminal.
 
-Run the Streamlit app by executing the command streamlit run app.py in your terminal.
+5. Access the Streamlit app in your web browser at http://localhost:8501.
 
-Access the Streamlit app in your web browser at http://localhost:8501.
+
