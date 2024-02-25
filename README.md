@@ -21,6 +21,7 @@ To get started with VidTour on your local machine, follow these steps:
 2. Install the required Python dependencies listed in requirements.txt using `pip install -r requirements.txt`.
 
 3. Set up your Google API key by creating a `.env` file in the root directory and adding your API Key
+GOOGLE_API_KEY = "Your API Key"
 
 4. Run the Streamlit app by executing the command streamlit run app.py in your terminal.
 
