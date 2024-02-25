@@ -1,0 +1,14 @@
+{
+    "name": "vidtour",
+    "version": "1.0.0",
+    "description": "Video Insights of given YT links",
+    "main": "app.py", 
+    "scripts": {
+      "start": "node app.py"
+    },
+    "author": "Arun Teja Unnagiri",
+    "license": "ISC",
+    "dependencies": {
+    }
+  }
+  
